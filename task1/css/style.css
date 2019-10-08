@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.header__login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #289795;
+  height: 40px;
+  padding: 0 80px;
+  color: #fff; }
+  .header__login-1 {
+    display: flex; }
+    .header__login-1--p {
+      margin-right: 20px; }
+    .header__login-1--a {
+      text-decoration: none;
+      color: white;
+      transition: all .2s; }
+      .header__login-1--a:hover {
+        color: #494ba0; }
+    .header__login-1--a1 {
+      margin-right: 10px; }
+
+.header__title {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  height: 100px;
+  background-color: #028460;
+  padding: 0 80px; }
+  .header__title--main {
+    font-size: 35px;
+    margin-right: 30px; }
+
+.header__links {
+  display: flex;
+  align-items: center;
+  background-color: #88bd8f;
+  padding: 0 80px; }
+  .header__links--ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0; }
+    .header__links--ul li {
+      font-size: 20px;
+      list-style: none;
+      padding: 10px 20px;
+      transition: all .2s; }
+      .header__links--ul li:hover {
+        background-color: #fff;
+        height: 100%; }
+
+.main-section {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  padding: 0 80px; }
+  .main-section:first-child {
+    padding-top: 60px; }
+  .main-section__content {
+    padding: 10px 0;
+    padding-right: 70px; }
+    .main-section__content p {
+      margin-top: 20px; }
+    .main-section__content--header {
+      font-size: 30px;
+      font-weight: 600; }
+    .main-section__content--highlight {
+      margin-left: 40px;
+      padding-left: 10px;
+      border-left: 3px solid green; }
+  .main-section__categories {
+    background-color: rgba(170, 170, 170, 0.623);
+    height: 320px;
+    padding: 30px 30px; }
+    .main-section__categories--header {
+      font-weight: 600;
+      font-size: 18px;
+      margin-bottom: 5px; }
+    .main-section__categories--content {
+      margin-left: 25px; }
+      .main-section__categories--content p:last-child {
+        margin-bottom: 5px; }
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 20px 80px;
+  background-color: #027756;
+  color: #fff; }
+  .footer__column--title {
+    color: #faf87c;
+    font-size: 18px;
+    margin-bottom: 5px; }
+  .footer__column3 {
+    text-align: right; }
+
+.green {
+  color: green; }
+
+.last {
+  margin-bottom: 50px; }

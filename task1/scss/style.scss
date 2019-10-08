@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  &__login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #289795;
+    height: 40px;
+    padding: 0 80px;
+    color: #fff;
+
+    &-1 {
+      display: flex;
+      
+      &--p {
+        margin-right: 20px;
+      }
+
+      &--a {
+        text-decoration: none;
+        color: white;
+        transition: all .2s;
+        &:hover {
+          color: rgb(73, 75, 160);
+        }
+      }
+
+      &--a1 {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    height: 100px;
+    background-color: #028460;
+    padding: 0 80px;
+
+    &--main {
+      font-size: 35px;
+      margin-right: 30px;
+    }
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+    background-color: #88bd8f;
+    padding: 0 80px;
+
+    &--ul {
+      display: flex;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+
+      li {
+        font-size: 20px;
+        list-style: none;
+        padding: 10px 20px;
+        transition: all .2s;
+
+
+        &:hover {
+          background-color: #fff;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+
+.main-section {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  padding: 0 80px;
+
+  &:first-child {
+    padding-top: 60px;
+  }
+
+  &__content {
+    padding: 10px 0;
+    padding-right: 70px;
+
+    p {
+      margin-top: 20px;
+    }
+
+    &--header {
+      font-size: 30px;
+      font-weight: 600;
+    }
+
+    &--highlight {
+      margin-left: 40px;
+      padding-left: 10px;
+      border-left: 3px solid green;
+    }
+  }
+
+  &__categories {
+    background-color: rgba(170, 170, 170, 0.623);
+    height: 320px;
+    padding: 30px 30px;
+
+    &--header {
+      font-weight: 600;
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+
+    &--content {
+      margin-left: 25px;
+      p:last-child {
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 20px 80px;
+  background-color: #027756;
+  color: #fff;
+
+
+  &__column {
+
+    &--title {
+      color: rgb(250, 248, 124);
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+
+    &--content {
+
+    }
+
+  }
+
+  &__column3 {
+    text-align: right;
+  }
+}
+
+.green {
+  color: green;
+}
+
+.last {
+  margin-bottom: 50px;
+}
